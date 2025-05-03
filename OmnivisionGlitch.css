@@ -27,8 +27,3 @@
 --     animation: OmnivisionGlitch 0.5s infinite; /* Match the @keyframes name */
 --     /* Add any other styles you want for the glitch effect */
 
--     /* Optional: Add a class to trigger the glitch effect on hover or click */
--     .glitch-effect:hover {
--     animation: glitch 0.5s infinite;
--     /* This is redundant if the base class already applies the infinite animation */
--     /* Optional: Add a class to trigger the glitch effect on hover or click */
