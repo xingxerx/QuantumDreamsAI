@@ -1,37 +1,14 @@
---- a/e:/OmniverseNet/QuantumDreamsAI/OmnivisionGlitch.css
-+++ b/e:/OmniverseNet/QuantumDreamsAI/OmnivisionGlitch.css
-@@ -8,4 +8,6 @@
-   20% {
-     transform: scale(1.1) translate(-5px, -5px);
-     opacity: 0.8;
--    filter: blur(
-+    filter: blur(2px); /* Added value and closing parenthesis/semicolon */
-+  }
-+  /* Add more keyframes (e.g., 100%) here */
-+} /* Added closing brace for @keyframes */
+# .gitignore
 
-+  40% {
-     transform: scale(1.2) translate(5px, 5px);
-     opacity: 0.6;
-     filter: blur(4px); /* Added value and closing parenthesis/semicolon */
--    filter: blur(4px); /* Added value and closing parenthesis/semicolon */
-+  } /* Added closing brace for 40% */ 
-    transform: scale(1.1) translate(-5px, -5px);
-+    opacity: 0.8;
-+    filter: blur(2px); /* Added value and closing parenthesis/semicolon */
-+  } /* Added closing brace for 40% */   +  60% {
-+    transform: scale(1.3) translate(-10px, 10px);
-+    opacity: 0.4;
-+    filter: blur(6px); /* Added value and closing parenthesis/semicolon */
-+  } /* Added closing brace for 60% */
-+  80% {
-+    transform: scale(1.2) translate(10px, -10px);
-+    opacity: 0.2;
-+    filter: blur(8px); /* Added value and closing parenthesis/semicolon */
-+  } /* Added closing brace for 80% */
-+  100% {
-+    transform: scale(1) translate(0, 0);
-+    opacity: 1;
-+    filter: blur(0); /* Added value and closing parenthesis/semicolon */
-+  } /* Added closing brace for 100% */
-+} /* Added closing brace for @keyframes */
+# System files and logs
+DumpStack.log.tmp
+$SysReset/
+$Recycle.Bin/
+*.log
+*.etl
+
+# Toolchains / Backups (if not part of your source code)
+MinGW/
+BackupChocolatey/
+
+# Add other patterns as needed for build outputs, etc.
