@@ -1,0 +1,5 @@
+
+{
+    "python.pipenv.enabled": false,
+    "python.packages.index": "http://localhost:3141/xingxerx/quantumdreams/"
+}

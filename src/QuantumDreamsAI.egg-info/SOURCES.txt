@@ -1,0 +1,7 @@
+LICENSE.txt
+pyproject.toml
+setup.cfg
+src/QuantumDreamsAI.egg-info/PKG-INFO
+src/QuantumDreamsAI.egg-info/SOURCES.txt
+src/QuantumDreamsAI.egg-info/dependency_links.txt
+src/QuantumDreamsAI.egg-info/top_level.txt
