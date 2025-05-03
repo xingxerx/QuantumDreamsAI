@@ -1,10 +1,34 @@
-@keyframes OmnivisionGlitch {
-  0% {
-    transform: scale(1) translate(0, 0);
-    opacity: 1;
-    filter: blur(0);
-  }
-  20% {
-    transform: scale(1.1) translate(-5px, -5px);
-    opacity: 0.8;
-    filter: blur(
+--- a/e:/OmniverseNet/QuantumDreamsAI/OmnivisionGlitch.css
++++ b/e:/OmniverseNet/QuantumDreamsAI/OmnivisionGlitch.css
+@@ -19,17 +19,11 @@
+
+      /* Apply the animation to the element */
+      .glitch-effect {
+-     animation: glitch 0.5s infinite;
+      animation: OmnivisionGlitch 0.5s infinite; /* Match the @keyframes name */
+      /* Add any other styles you want for the glitch effect */
+      }
+
+      /* Optional: Add a class to trigger the glitch effect on hover or click */
+      .glitch-effect:hover {
+-     animation: glitch 0.5s infinite;
+      /* This is redundant if the base class already applies the infinite animation */
+      }
+
+      /* Optional: Add a class to trigger the glitch effect on click */
+      .glitch-effect:active {
+-     animation: glitch 0.5s infinite;
+      /* This is redundant if the base class already applies the infinite animation */
+      }
+-
+-     animation: glitch 0.5s infinite;
+-                              ^
+-
+--     animation: OmnivisionGlitch 0.5s infinite; /* Match the @keyframes name */
+--     /* Add any other styles you want for the glitch effect */
+
+-     /* Optional: Add a class to trigger the glitch effect on hover or click */
+-     .glitch-effect:hover {
+-     animation: glitch 0.5s infinite;
+-     /* This is redundant if the base class already applies the infinite animation */
+-     /* Optional: Add a class to trigger the glitch effect on hover or click */
