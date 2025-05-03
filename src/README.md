@@ -1,36 +1,26 @@
-# QuantumDreamsAI
-
-This repository contains the source code for QuantumDreamsAI, an AI-powered application designed to [FILL IN THE PURPOSE OF THE APPLICATION HERE].
-
-## Getting Started
-
-To get started with QuantumDreamsAI, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/QuantumDreamsAI.git
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    # Assuming you have Python and pip installed
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the application:**
-    ```bash
-    # Instructions on how to run the application, e.g.,
-    python main.py
-    ```
-
-## Contributing
-
-We welcome contributions to QuantumDreamsAI! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
-
-## License
-
-This project is licensed under the [LICENSE NAME] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-
-For any questions or inquiries, please contact [YOUR EMAIL ADDRESS].
+[metadata]
+name = QuantumDreamsAI
+version = 0.1.0
+author = Jemone McCubbin
+author_email = xingxerx@email.com
+description = A short description of QuantumDreamsAI
+long_description = file: README.md
+long_description_content_type = text/markdown
+url = https://github.com/xingxerx/QuantumDreamsAI.git
+license = MIT
+license_file = LICENSE
+classifiers =
+    Programming Language :: Python :: 3
+    Operating System :: OS Independent
+    Topic :: Software Development :: Libraries :: Python Modules
+    Typing :: Typed
+[options]
+package_dir =
+    = src
+packages = find:
+where = src
+[options.packages.find]
+python_requires = >=3.7
+install_requires =
+    requests >= 2.20
+    # Add more dependencies here
