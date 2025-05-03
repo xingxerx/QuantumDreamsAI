@@ -1,0 +1,4 @@
+# e:\OmniverseNet\QuantumDreamsAI\pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"] # Minimum version of setuptools needed
+build-backend = "setuptools.build_meta"

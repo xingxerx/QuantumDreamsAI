@@ -1,0 +1,6 @@
+# Add required Python packages here, one per line.
+# Example: pandas
+# Example: qiskit
+# Example: qiskit[visualization]
+qiskit>=1.0 # Installs Qiskit version 1.0 or newer
+# qiskit[all]>=1.0 # Optionally install all extras instead
