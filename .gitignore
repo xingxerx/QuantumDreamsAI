@@ -1,18 +1,6 @@
---- a/E:/OmniverseNet/QuantumDreamsAI/.gitignore
-+++ b/E:/OmniverseNet/QuantumDreamsAI/.gitignore
-@@ -1,3 +1,13 @@
-+# Ignore Windows System Reset logs (causes permission errors)
-+$SysReset/
-+
-+# Ignore Chocolatey backup
-+BackupChocolatey/
-+
-+# Ignore MinGW toolchain
-+MinGW/
-+
-+# Ignore temporary dump files
-+DumpStack.log.tmp
-+
- # Add other rules for build artifacts, dependencies, IDE files, etc. below
- # Example:
- # build/
+# Ignore Windows System Reset logs
+$SysReset/
+# Or, if it appears as a literal directory name:
+'$SysReset'/ 
+# Or, more likely, ignore specific log directories if they appear elsewhere
+Logs/Download/MoSetup/
