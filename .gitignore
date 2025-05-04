@@ -1,6 +1,2 @@
-# Ignore Windows System Reset logs
-$SysReset/
-# Or, if it appears as a literal directory name:
-'$SysReset'/ 
-# Or, more likely, ignore specific log directories if they appear elsewhere
-Logs/Download/MoSetup/
+# Ignore Windows System Reset logs encountered by Git
+Logs/Download/MoSetup/UpdateAgent.log
