@@ -23,5 +23,6 @@
     <Content Include=".vscode\settings.json" />
     <Content Include=".git\COMMIT_EDITMSG" />
     <Content Include="autocorect.py" />
+    <Content Include="constraints.txt" />
   </ItemGroup>
 </Project>
