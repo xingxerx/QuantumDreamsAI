@@ -11,5 +11,7 @@
     <!-- to be copied to the output directory, list them here using Content. -->
     <!-- C# source files (.cs) are typically included automatically. -->
     <Content Include=".vscode\launch.json" />
+    <Content Include="Holographic_Hub.cs" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
