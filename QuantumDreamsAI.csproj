@@ -16,5 +16,9 @@
     <Content Include=".NET CLI.md" />
     <Content Include="Assets\Textures\MyNewScript.cs" />
     <Content Include=".vscode\Shader-Based Quantum Distortion.cpp" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.assets.cache" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.GeneratedMSBuildEditorConfig.editorconfig" />
   </ItemGroup>
 </Project>
