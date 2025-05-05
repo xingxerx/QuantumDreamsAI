@@ -10,5 +10,7 @@
     <Content Include=".vscode\Unity VFX Graph.cs" />
     <Content Include=".vscode\Shader-Based Quantum Distortion.cpp" />
     <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs" />
+    <Content Include="Assets\Textures\MyNewScript.cs" />
+    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfoInputs.cache" />
   </ItemGroup>
 </Project>
