@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuantumDreamsAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dd739af56c375c671004509f989022261e93905")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b43c09bdc28d32efd37d88465309718be0c89e")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuantumDreamsAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuantumDreamsAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,10 @@
     <!-- to be copied to the output directory, list them here using Content. -->
     <!-- C# source files (.cs) in the project directory are included automatically. -->
     <!-- Intermediate files (like those in obj/) should not be listed here. -->
-    <Content Include=".vscode\launch.json" Condition="Exists('.vscode\launch.json')" /> <!-- Optional: Include launch.json if needed in output -->
+    <Content Include=".vscode\launch.json" Condition="Exists('.vscode\launch.json')" />
+    <!-- Optional: Include launch.json if needed in output -->
+    <Content Include=".NET CLI.md" />
+    <Content Include="Assets\Textures\MyNewScript.cs" />
+    <Content Include=".vscode\Shader-Based Quantum Distortion.cpp" />
   </ItemGroup>
 </Project>
