@@ -1,2 +1,11 @@
-# Ignore Windows System Reset logs encountered by Git
-Logs/Download/MoSetup/UpdateAgent.log
+--- a/E:\OmniverseNet\QuantumDreamsAI\.gitignore
++++ b/E:\OmniverseNet\QuantumDreamsAI\.gitignore
+@@ +11,3 @@
+ # *.tmp
+ # *.bak
+ # *.swp
++# Ignore specific temporary dump files and system logs
++DumpStack.log.tmp
++/$SysReset/
++# Ignore system files and logs
++*.log
