@@ -1,6 +1,5 @@
-# Add required Python packages here, one per line.
-# Example: pandas
-# Example: qiskit
-# Example: qiskit[visualization]
-qiskit>=1.0 # Installs Qiskit version 1.0 or newer
-# qiskit[all]>=1.0 # Optionally install all extras instead
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
