@@ -2,17 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
+            "name": "Python: Current File",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Unity Editor",
-            "type": "unity",
-            "request": "attach"
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
-        // You might have other configurations like "Windows Player", "OSX Player", etc.
     ]
 }
