@@ -20,5 +20,6 @@
     <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs" />
     <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfoInputs.cache" />
     <Content Include="obj\Debug\net8.0\QuantumDreamsAI.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include=".vscode\settings.json" />
   </ItemGroup>
 </Project>
