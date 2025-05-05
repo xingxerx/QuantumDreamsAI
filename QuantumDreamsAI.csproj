@@ -9,9 +9,8 @@
   <ItemGroup>
     <!-- If you have actual content files (like images, data files) that need -->
     <!-- to be copied to the output directory, list them here using Content. -->
-    <!-- C# source files (.cs) are typically included automatically. -->
-    <Content Include=".vscode\launch.json" />
-    <Content Include="Holographic_Hub.cs" />
-    <Content Include="obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs" />
+    <!-- C# source files (.cs) in the project directory are included automatically. -->
+    <!-- Intermediate files (like those in obj/) should not be listed here. -->
+    <Content Include=".vscode\launch.json" Condition="Exists('.vscode\launch.json')" /> <!-- Optional: Include launch.json if needed in output -->
   </ItemGroup>
 </Project>
