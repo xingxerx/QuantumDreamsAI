@@ -3,3 +3,8 @@
 /mnt/e/OmniverseNet/QuantumDreamsAI/obj/Debug/net8.0/QuantumDreamsAI.AssemblyInfo.cs
 /mnt/e/OmniverseNet/QuantumDreamsAI/obj/Debug/net8.0/QuantumDreamsAI.csproj.CoreCompileInputs.cache
 /mnt/e/OmniverseNet/QuantumDreamsAI/obj/Debug/net8.0/QuantumDreamsAI.sourcelink.json
+E:\OmniverseNet\QuantumDreamsAI\obj\Debug\net8.0\QuantumDreamsAI.GeneratedMSBuildEditorConfig.editorconfig
+E:\OmniverseNet\QuantumDreamsAI\obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfoInputs.cache
+E:\OmniverseNet\QuantumDreamsAI\obj\Debug\net8.0\QuantumDreamsAI.AssemblyInfo.cs
+E:\OmniverseNet\QuantumDreamsAI\obj\Debug\net8.0\QuantumDreamsAI.csproj.CoreCompileInputs.cache
+E:\OmniverseNet\QuantumDreamsAI\obj\Debug\net8.0\QuantumDreamsAI.sourcelink.json
