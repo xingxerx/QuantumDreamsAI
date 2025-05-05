@@ -1,11 +1,10 @@
 --- a/E:\OmniverseNet\QuantumDreamsAI\.gitignore
 +++ b/E:\OmniverseNet\QuantumDreamsAI\.gitignore
-@@ +11,3 @@
+@@ -11,3 +11,6 @@
  # *.tmp
  # *.bak
  # *.swp
 +# Ignore specific temporary dump files and system logs
 +DumpStack.log.tmp
 +/$SysReset/
-+# Ignore system files and logs
-+*.log
+
